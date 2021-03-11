@@ -44,8 +44,6 @@ export function TaskList() {
     const dados = [...tasks];
 
     setTasks(dados);
-
-    console.log(dados);
   }
 
   function handleRemoveTask(id: number) {
